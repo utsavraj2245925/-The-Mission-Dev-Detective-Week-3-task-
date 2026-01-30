@@ -43,3 +43,19 @@ Dev Detective is a modern and interactive web application that allows users to s
 ## 📁 Project Structure
 
 ├── index.html ├── style.css ├── script.js ├── README.md └── prompt.md
+
+---
+
+🌐 API Used
+GitHub REST API
+https://api.github.com/users/{username}
+
+---
+
+🧠 Learning Outcomes
+API Integration using JavaScript
+Async/Await & Fetch API
+DOM Manipulation
+Error Handling
+UI Design & Responsive Layout
+
