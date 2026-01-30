@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dev Detective</title>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+<header>
+  <h1>Dev Detective 🕵️‍♂️</h1>
+  <p>GitHub User Search App</p>
+</header>
+
+<div class="search-card">
+  <div class="search">
+    <input id="usernameInput" placeholder="Enter GitHub username">
+    <p id="error" class="error hidden">No results</p>
+    <button id="searchBtn">Search</button>
+  </div>
+</div>
+
+<p id="loading" class="hidden">Loading...</p>
+
+<div id="profile" class="profile hidden"></div>
+
+<div id="repos" class="repos hidden">
+  <h2>Latest Repositories</h2>
+  <ul id="repoList" class="repo-grid"></ul>
+</div>
+
+<section class="battle">
+  <h2>⚔️ Battle Mode</h2>
+  <div class="search input-group">
+    <input id="user1" placeholder="User 1">
+    <input id="user2" placeholder="User 2">
+    <button id="battleBtn">Battle</button>
+  </div>
+  <div id="battleResult"></div>
+</section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
