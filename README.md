@@ -5,7 +5,7 @@ Dev Detective is a modern and interactive web application that allows users to s
 ---
 
 ## 🚀 Live Demo
-👉 https://your-username.github.io/dev-detective/
+👉 https://the-mission-dev-detective-week-3-task-cd9vtyg3k.vercel.app/
 
 ---
 
@@ -42,7 +42,8 @@ Dev Detective is a modern and interactive web application that allows users to s
 
 ## 📁 Project Structure
 
-├── index.html ├── style.css ├── script.js ├── README.md └── prompt.md
+├── index.html ├── style.css ├── script.js
+├── README.md └── prompt.md
 
 ---
 
